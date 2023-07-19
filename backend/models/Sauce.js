@@ -10,4 +10,4 @@ const sauceSchema = mongoose.Schema({
   userId: { type: String, required: true },
 });
 
-module.exports = mongoose.model('sauce', sauceSchema);
+module.exports = mongoose.model('Sauce', sauceSchema);
